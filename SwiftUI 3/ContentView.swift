@@ -8,25 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var soundOn = true
-    @State private var nickname = "Somebody"
-    @State private var email = "my@email.com"
-    @State private var foreColor = Color.red
-    @State private var bgColor = Color.black
-    
+    @State private var selection: Int = 0
     
     var body: some View {
-        Form {
-            DisclosureGroup("Sound Settings") {
-                LazyVStack {
-                    Text("Testing")
-                    Text("Testing")
-                    Text("Testing")
-                    Text("Testing")
-                    Text("Testing")
-                    Text("Testing")
+        TabView(selection: $selection) {
+            
+            NewColorsView()
+                .tabItem {
+                    Text("Colors")
                 }
-            }
+                .tag(1)
         }
     }
 }

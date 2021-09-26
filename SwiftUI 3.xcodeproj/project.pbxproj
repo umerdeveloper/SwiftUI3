@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB7E85F22700E172003E263D /* NewColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7E85F12700E172003E263D /* NewColorsView.swift */; };
 		CBD14F1627004D1100826B7F /* SwiftUI_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD14F1527004D1100826B7F /* SwiftUI_3App.swift */; };
 		CBD14F1827004D1100826B7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD14F1727004D1100826B7F /* ContentView.swift */; };
 		CBD14F1A27004D1300826B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD14F1927004D1300826B7F /* Assets.xcassets */; };
 		CBD14F1D27004D1300826B7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD14F1C27004D1300826B7F /* Preview Assets.xcassets */; };
-		CBD14F24270052AA00826B7F /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD14F23270052AA00826B7F /* ColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB7E85F12700E172003E263D /* NewColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewColorsView.swift; sourceTree = "<group>"; };
 		CBD14F1227004D1100826B7F /* SwiftUI 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD14F1527004D1100826B7F /* SwiftUI_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_3App.swift; sourceTree = "<group>"; };
 		CBD14F1727004D1100826B7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBD14F1927004D1300826B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBD14F1C27004D1300826B7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CBD14F23270052AA00826B7F /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				CBD14F1527004D1100826B7F /* SwiftUI_3App.swift */,
 				CBD14F1727004D1100826B7F /* ContentView.swift */,
-				CBD14F23270052AA00826B7F /* ColorPicker.swift */,
+				CB7E85F12700E172003E263D /* NewColorsView.swift */,
 				CBD14F1927004D1300826B7F /* Assets.xcassets */,
 				CBD14F1B27004D1300826B7F /* Preview Content */,
 			);
@@ -141,8 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBD14F1827004D1100826B7F /* ContentView.swift in Sources */,
+				CB7E85F22700E172003E263D /* NewColorsView.swift in Sources */,
 				CBD14F1627004D1100826B7F /* SwiftUI_3App.swift in Sources */,
-				CBD14F24270052AA00826B7F /* ColorPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
